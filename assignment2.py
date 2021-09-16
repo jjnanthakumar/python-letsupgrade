@@ -8,5 +8,5 @@ def check_prime(x):
             if x % i == 0:
                 return False
         return True
-
-print(check_prime(12000))
+n = int(input())
+print(f"{n} is prime" if check_prime(n) else f"{n} is not prime")
